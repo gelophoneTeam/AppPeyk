@@ -16,22 +16,22 @@ public class PeykActivity extends AppCompatActivity {
         setContentView(R.layout.activity_peyk);
 
         toggleBtn=(SwitchCompat)findViewById(R.id.toggleBtn);
-//        toggleBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-//            @Override
-//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-//                if (toggleBtn.isChecked()) {
-//
-//                    Intent i=new Intent(SecondPage.this,Available.class);
-//                    startActivity(i);
-//
-//                } else {
-//
-//                    Intent i=new Intent(SecondPage.this,UnAvailable.class);
-//                    startActivity(i);
-//
-//                }
-//            }
-//
-//        });
+        toggleBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (toggleBtn.isChecked()) {
+
+                    Intent i=new Intent(PeykActivity.this,Available.class);
+                    startActivity(i);
+
+                } else {
+
+                    Intent i=new Intent(PeykActivity.this,UnAvailable.class);
+                    startActivity(i);
+
+                }
+            }
+
+        });
     }
 }
