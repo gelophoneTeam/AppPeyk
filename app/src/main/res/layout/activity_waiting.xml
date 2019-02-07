@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Waiting">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/wait"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="در انتظار تایید مشخصات"
+        android:textColor="#10c6fa"
+        android:textSize="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="خروج"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:elevation="5dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="100dp"/>
+
+</android.support.design.widget.CoordinatorLayout>
