@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AppPeyk</string>
+    <string name="delivery">نام کاربری</string>
+    <string name="pass">رمز عبور</string>
+    <string name="name">ژلوفون</string>
+    <string name="phone">شماره تلفن</string>
 </resources>
