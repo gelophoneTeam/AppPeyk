@@ -28,4 +28,9 @@ dependencies {
 
     //waitingActivity
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
+
+    //Sign
+    implementation 'com.github.infotech-group:CanvasView:1.0.0'
+    //RangeSliderView
+    implementation 'com.github.channguyen:rsv:1.0.1'
 }
